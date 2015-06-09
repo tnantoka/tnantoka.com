@@ -1,5 +1,30 @@
 body {
-  padding-top: 10px;
+  padding-top: 15px;
   background: #fefefe;
   color: #555;
+}
+
+a {
+  color: inherit;
+  outline: none !important;
+}
+
+.list-inline {
+  font-size: 20px;
+}
+
+.list-inline li {
+  padding: 0 2px;
+}
+
+.fa-stack-gh {
+  line-height: inherit;
+}
+
+.fa-stack-gh.fa-circle {
+  font-size: 1.3em;
+}
+
+.fa-stack-gh.fa-github {
+  font-size: 1.4em;
 }
