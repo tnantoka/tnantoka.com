@@ -8,5 +8,11 @@ $(document).on('mouseover', '.js-iconate', function(e) {
 });
 
 $(document).on('click', '.js-iconate', function(e) {
-  $(this).find('.fa-stack-1x').addClass('fa-pulse')
+  $(this).find('.fa-stack-1x').addClass('fa-pulse');
 });
+
+$(window).on('pageshow', function(e) {
+  $('.js-iconate .fa-stack-1x').removeClass('fa-pulse');
+});
+
+
