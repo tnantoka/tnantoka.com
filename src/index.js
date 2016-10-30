@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
-import './index.css';
+import '../vendor/tufte-css-1.1/tufte.css';
 
 ReactDOM.render(
   <App />,
