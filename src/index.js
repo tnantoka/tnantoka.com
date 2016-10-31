@@ -1,9 +1,11 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './App';
-import '../vendor/tufte-css-1.1/tufte.css';
+import React from 'react'
+import { render } from 'react-dom'
+import Root from './components/Root'
 
-ReactDOM.render(
-  <App />,
+import '../vendor/tufte-css-1.1/tufte.css'
+import './index.css'
+
+render(
+  <Root />,
   document.getElementById('root')
-);
+)

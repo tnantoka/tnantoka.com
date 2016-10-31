@@ -1,0 +1,25 @@
+{
+  "sns": [
+    { "href": "https://twitter.com/tnantoka", "text": "Twitter" },
+    { "href": "https://github.com/tnantoka", "text": "GitHub" }
+  ],
+  "codes": [
+    { "href": "https://github.com/tnantoka/edhita", "text": "Edhita" },
+    { "href": "https://github.com/tnantoka/generative-swift", "text": "Generative Swift" },
+    { "href": "https://github.com/tnantoka/IconCreator", "text": "IconCreator" },
+    { "href": "https://github.com/tnantoka/wizu", "text": "Wizu" },
+    { "href": "https://github.com/tnantoka/GameplayKitSandbox", "text": "GameplayKit Sandbox" },
+    { "href": "https://github.com/tnantoka/miclo", "text": "Miclo" },
+    { "href": "https://github.com/tnantoka/itoa", "text": "itoa" },
+    { "href": "https://github.com/tnantoka/BrowserQuestKit", "text": "BrowserQuestKit" }
+  ],
+  "apps": [
+    { "href": "http://javascriptanywhere.net/", "text": "JavaScript Anywhere" },
+    { "href": "http://www.140note.com/", "text": "140note" },
+    { "href": "http://remaining.bornneet.com/", "text": "Remaining" }
+  ],
+  "sites": [
+    { "href": "http://spritekit.jp/", "text": "SpriteKit.jp" },
+    { "href": "http://swiftaweek.com/", "text": "Swift a Week" }
+  ]
+}
