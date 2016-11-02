@@ -1,5 +1,6 @@
 import { combineReducers } from 'redux'
 import list from './links.json'
+import { routerReducer } from 'react-router-redux'
 
 const links = (state, action) => list
 
@@ -14,7 +15,8 @@ const visibilityFilter = (state = 'sns', action) => {
 
 const rootReducer = combineReducers({
   links,
-  visibilityFilter
+  visibilityFilter,
+  routing: routerReducer
 })
 
 export default rootReducer
