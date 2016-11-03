@@ -28,8 +28,6 @@ class App extends React.Component {
 }
 
 const mapStateToProps = (state, ownProps) => ({
-hoge: console.log(ownProps),
-hoge: console.log(ownProps.location.pathname),
   filter: ownProps.location.pathname.slice(1)
 })
 

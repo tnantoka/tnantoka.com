@@ -6,7 +6,6 @@ const getVisibleLinks = (links, filter) => (
 )
 
 const mapStateToProps = (state, ownProps) => ({
-  hoge: console.log(window.hoge = state),
   // links: getVisibleLinks(state.links, state.visibilityFilter)
   links: getVisibleLinks(state.links, ownProps.filter)
 })
