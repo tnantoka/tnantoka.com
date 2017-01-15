@@ -23,6 +23,7 @@
   "sites": [
     { "href": "http://blog.tnantoka.com/", "text": "Blog" },
     { "href": "http://spritekit.jp/", "text": "SpriteKit.jp" },
-    { "href": "http://swiftaweek.com/", "text": "Swift a Week" }
+    { "href": "http://swiftaweek.com/", "text": "Swift a Week" },
+    { "href": "https://github.com/tnantoka/serversideswift.net", "text": "serversideswift.net" }
   ]
 }
