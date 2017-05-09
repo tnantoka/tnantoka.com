@@ -4,7 +4,6 @@
     { "href": "https://github.com/tnantoka", "text": "GitHub" }
   ],
   "codes": [
-    { "href": "https://github.com/tnantoka/edhita", "text": "Edhita" },
     { "href": "https://github.com/tnantoka/generative-swift", "text": "Generative Swift" },
     { "href": "https://github.com/tnantoka/IconCreator", "text": "IconCreator" },
     { "href": "https://github.com/tnantoka/ScreenshotCreator", "text": "ScreenshotCreator" },
@@ -17,7 +16,9 @@
   ],
   "apps": [
     { "href": "http://javascriptanywhere.net/", "text": "JavaScript Anywhere" },
-    { "href": "http://www.140note.com/", "text": "140note" },
+    { "href": "https://edhita.bornneet.com/", "text": "Edhita" },
+    { "href": "https://www.gradientor.com/", "text": "Gradientor" },
+    { "href": "http://140note.bornneet.com/", "text": "140note" },
     { "href": "http://remaining.bornneet.com/", "text": "Remaining" }
   ],
   "sites": [
