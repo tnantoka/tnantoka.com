@@ -1,341 +1,350 @@
-<!doctype html>
-<html lang="ja">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/plus-jakarta-display.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="styles/custom.css" />
+    <title>@tnantoka</title>
+  </head>
 
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400&display=swap" rel="stylesheet">
-  <link href="style.css" rel="stylesheet">
+  <div class="container pt-4">
+    <nav class="navbar navbar-expand navbar-light fixed-top py-3">
+      <div class="container">
+        <a class="navbar-brand" href="/">
+          @tnantoka
+        </a>
+        <ul class="navbar-nav d-none d-md-flex">
+          <li class="nav-item">
+            <span class="nav-link">|</span>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#activity">Activity</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#works">Works</a>
+          </li>
+        </ul>
+        <a
+          href="https://twitter.com/tnantoka"
+          class="text-azure fs-4 ms-auto me-4"
+          ><ion-icon name="logo-twitter"></ion-icon></a
+        >
+        <a
+          href="https://github.com/tnantoka"
+          class="text-azure fs-4"
+          ><ion-icon name="logo-github"></ion-icon></a
+        >
+      </div>
+    </nav>
 
-  <title>@tnantoka</title>
-</head>
-<body>
+    <div class="my-5 py-5">
+      <h2 id="activity">Activity - 最近</h2>
+      <div class="row g-4 py-5 row-cols-1 row-cols-lg-4">
 
-<div class="container mt-4">
-  <div class="d-flex align-items-end">
-    <h1 class="display-6">@tnantoka</h1>
-    <p class="mb-2 fs-5">
-      <a href="https://twitter.com/tnantoka" class="text-decoration-none text-dark ms-3">
-        <ion-icon name="logo-twitter"></ion-icon>
-      </a>
-      <a href="https://github.com/tnantoka" class="text-decoration-none text-dark ms-2">
-        <ion-icon name="logo-github"></ion-icon>
-      </a>
-    </p>
-  </div>
+        <!--
+        <div class="feature col text-truncate text-wrap">
+          <div class="feature-icon">
+            <img src="" />
+          </div>
+          <h3 class="mt-3"></h3>
+          <p>
+          </p>
+          <a href="">
+          </a>
+        </div>
+        -->
 
-  <h2 class="h3 fw-light mt-5">Activity - 最近</h2>
-
-  <div class="card rounded-0 mt-3">
-    <div class="row g-0">
-      <div class="col-md-8">
-        <div class="card-body">
-          <h3 class="card-title h5">
-            <a href="https://log.tnantoka.com/2022/06/20/5q6r5pfpixhujicw/" class="text-decoration-none text-dark">
-              Blog3というブログホスティングサービスを作った
-            </a>
-          </h3>
-          <p class="h6 card-subtitle text-muted mt-1">
+        <div class="feature col text-truncate text-wrap">
+          <div class="feature-icon">
+            <img src="images/blog3.png" />
+          </div>
+          <h3 class="mt-3">Blog3というブログホスティングサービスを作った</h3>
+          <p>
             作った。
           </p>
+          <a href="https://log.tnantoka.com/2022/06/20/5q6r5pfpixhujicw/">
+            https://log.tnantoka.com/2022/06/20/5q6r5pfpixhujicw/
+          </a>
         </div>
-      </div>
-      <div class="col-md-4 overflow-hidden" style="height: 200px">
-      </div>
-    </div>
-  </div>
 
-  <div class="card rounded-0 mt-3">
-    <div class="row g-0">
-      <div class="col-md-8">
-        <div class="card-body">
-          <h3 class="card-title h5">
-            <a href="https://note.com/tnantoka/n/nde6efd2805a3" class="text-decoration-none text-dark">
-              昔作ったRails製のサービス「Mojicon」をSPA化してサーバー代0円で運用できるようにした
-            </a>
-          </h3>
-          <p class="h6 card-subtitle text-muted mt-1">
+        <div class="feature col text-truncate text-wrap">
+          <div class="feature-icon">
+            <img src="https://mojicon.net/og-image.png" />
+          </div>
+          <h3 class="mt-3">昔作ったRails製のサービス「Mojicon」をSPA化してサーバー代0円で運用できるようにした</h3>
+          <p>
             お金を節約する話。
           </p>
+          <a href="https://note.com/tnantoka/n/nde6efd2805a3">
+            https://note.com/tnantoka/n/nde6efd2805a3
+          </a>
         </div>
-      </div>
-      <div class="col-md-4 overflow-hidden" style="height: 200px">
-        <img src="https://mojicon.net/og-image.png" class="img-fluid">
-      </div>
-    </div>
-  </div>
 
-  <div class="card rounded-0 mt-3">
-    <div class="row g-0">
-      <div class="col-md-8">
-        <div class="card-body">
-          <h3 class="card-title h5">
-            <a href="https://note.com/tnantoka/n/n02ce160be470" class="text-decoration-none text-dark">
-              コードでちょっとしたドット絵・アニメを作るiOSアプリ「Pixelet」をリリースしました
-            </a>
-          </h3>
-          <p class="h6 card-subtitle text-muted mt-1">
+        <div class="feature col text-truncate text-wrap">
+          <div class="feature-icon">
+            <img src="https://assets.st-note.com/production/uploads/images/75308750/rectangle_large_type_2_e137ddfbebf69ce36313f8cfd54f24bc.png" />
+          </div>
+          <h3 class="mt-3">コードでちょっとしたドット絵・アニメを作るiOSアプリ「Pixelet」をリリースしました</h3>
+          <p>
             久しぶりのアプリです。
           </p>
+          <a href="https://note.com/tnantoka/n/n02ce160be470">
+            https://note.com/tnantoka/n/n02ce160be470
+          </a>
         </div>
-      </div>
-      <div class="col-md-4 overflow-hidden" style="height: 200px">
-        <img src="https://assets.st-note.com/production/uploads/images/75308750/rectangle_large_type_2_e137ddfbebf69ce36313f8cfd54f24bc.png" class="img-fluid">
-      </div>
-    </div>
-  </div>
 
-  <div class="card rounded-0 mt-3">
-    <div class="row g-0">
-      <div class="col-md-8">
-        <div class="card-body">
-          <h3 class="card-title h5">
-            <a href="https://notes.tnantoka.com/entry/2022/03/29/000001" class="text-decoration-none text-dark">
-              家紋生成サービスの残骸供養
-            </a>
-          </h3>
-          <p class="h6 card-subtitle text-muted mt-1">
+        <div class="feature col text-truncate text-wrap">
+          <div class="feature-icon">
+            <img src="https://notes.tnantoka.com/img/in-post/000001-1.png" />
+          </div>
+          <h3 class="mt-3">家紋生成サービスの残骸供養</h3>
+          <p>
             結局リリースしなかったのでモックのスクショを載せて供養
           </p>
+          <a href="https://notes.tnantoka.com/entry/2022/03/29/000001">
+            https://notes.tnantoka.com/entry/2022/03/29/000001
+          </a>
         </div>
-      </div>
-      <div class="col-md-4 overflow-hidden" style="height: 200px">
-        <img src="https://notes.tnantoka.com/img/in-post/000001-1.png" class="img-fluid">
-      </div>
-    </div>
-  </div>
 
-  <div class="card rounded-0 mt-3">
-    <div class="row g-0">
-      <div class="col-md-8">
-        <div class="card-body">
-          <h3 class="card-title h5">
-            <a href="https://note.com/tnantoka/n/n2fbeba9efc26" class="text-decoration-none text-dark">
-              初めてリリースしたiOSアプリ「JSAhywhere」が10周年を迎えました
-            </a>
-          </h3>
-          <p class="h6 card-subtitle text-muted mt-1">
+        <div class="feature col text-truncate text-wrap">
+          <div class="feature-icon">
+            <img src="https://assets.st-note.com/production/uploads/images/21610261/rectangle_large_type_2_fc8a36dab3d7c13afb16d35d223fbb74.png" />
+          </div>
+          <h3 class="mt-3">初めてリリースしたiOSアプリ「JSAhywhere」が10周年を迎えました</h3>
+          <p>
             感慨深いものがある
           </p>
+          <a href="https://note.com/tnantoka/n/n2fbeba9efc26">
+            https://note.com/tnantoka/n/n2fbeba9efc26
+          </a>
         </div>
-      </div>
-      <div class="col-md-4 overflow-hidden" style="height: 200px">
-        <img src="https://assets.st-note.com/production/uploads/images/21610261/rectangle_large_type_2_fc8a36dab3d7c13afb16d35d223fbb74.png" class="img-fluid">
-      </div>
-    </div>
-  </div>
 
-  <div class="card rounded-0 mt-3">
-    <div class="row g-0">
-      <div class="col-md-8">
-        <div class="card-body">
-          <h3 class="card-title h5">
-            <a href="https://note.com/tnantoka/n/n9a4277d1a3ea" class="text-decoration-none text-dark">
-              Googleさん主催の5KBアプリコンテスト「Flutter Create」で入賞しました
-            </a>
-          </h3>
-          <p class="h6 card-subtitle text-muted mt-1">
+        <div class="feature col text-truncate text-wrap">
+          <div class="feature-icon">
+            <img src="https://assets.st-note.com/production/uploads/images/11539800/rectangle_large_type_2_335226938d0685e580474caa57457fcc.png" />
+          </div>
+          <h3 class="mt-3">Googleさん主催の5KBアプリコンテスト「Flutter Create」で入賞しました</h3>
+          <p>
             素直に嬉しかったです
           </p>
+          <a href="https://note.com/tnantoka/n/n9a4277d1a3ea">
+            https://note.com/tnantoka/n/n9a4277d1a3ea
+          </a>
         </div>
-      </div>
-      <div class="col-md-4 overflow-hidden" style="height: 200px">
-        <img src="https://assets.st-note.com/production/uploads/images/11539800/rectangle_large_type_2_335226938d0685e580474caa57457fcc.png" class="img-fluid">
+
       </div>
     </div>
-  </div>
 
-  <h2 class="h3 fw-light mt-5">Works - 個人</h2>
+    <h2 class="pb-4" id="works">Works - 個人</h2>
+    <div class="pb-5">
 
-  <div class="card rounded-0 mt-3">
-    <div class="card-body">
-      <h3 class="card-title h5">
-        <span class="badge bg-dark rounded-0">Webサービス</span>
-        <a href="https://mojicon.net/" class="text-decoration-none text-dark">
+      <!--
+      <div class="mt-5">
+        <small class="text-pills px-4"></small>
+        <h3 class="mt-3">
+        </h3>
+        <p class="mb-1">
+        </p>
+        <a href="">
+        </a>
+      </div>
+      -->
+ 
+      <div class="mt-5">
+        <small class="text-pills px-4">Webサービス</small>
+        <h3 class="mt-3">
           Mojicon
+        </h3>
+        <p class="mb-1">
+          アイコン作成サービス
+        </p>
+        <a href="https://mojicon.net/">
+          https://mojicon.net/
         </a>
-      </h3>
-      <p class="h6 card-subtitle text-muted mt-1">
-        アイコン作成サービス
-      </p>
-    </div>
-  </div>
+      </div>
 
-  <div class="card rounded-0 mt-3">
-    <div class="card-body">
-      <h3 class="card-title h5">
-        <span class="badge bg-dark rounded-0">アプリ</span>
-        <a href="https://www.javascriptanywhere.net/" class="text-decoration-none text-dark">
+      <div class="mt-5">
+        <small class="text-pills px-4">アプリ</small>
+        <h3 class="mt-3">
           JavaScript Anywhere
+        </h3>
+        <p class="mb-1">
+          iOS最古の開発ツールアプリを自称している。
+        </p>
+        <a href="https://www.javascriptanywhere.net/">
+          https://www.javascriptanywhere.net/
         </a>
-      </h3>
-      <p class="h6 card-subtitle text-muted mt-1">
-        iOS最古の開発ツールアプリを自称している。
-      </p>
-    </div>
-  </div>
+      </div>
 
-  <div class="card rounded-0 mt-3">
-    <div class="card-body">
-      <h3 class="card-title h5">
-        <span class="badge bg-dark rounded-0">アプリ</span>
-        <a href="https://edhita.bornneet.com/" class="text-decoration-none text-dark">
+      <div class="mt-5">
+        <small class="text-pills px-4">アプリ</small>
+        <h3 class="mt-3">
           Edhita
+        </h3>
+        <p class="mb-1">
+          iOS最古のオープンソースなテキストエディターアプリを自称している。
+        </p>
+        <a href="https://edhita.bornneet.com/">
+          https://edhita.bornneet.com/
         </a>
-      </h3>
-      <p class="h6 card-subtitle text-muted mt-1">
-        iOS最古のオープンソースなテキストエディターアプリを自称している。
-      </p>
-    </div>
-  </div>
-
-  <div class="card rounded-0 mt-3">
-    <div class="card-body">
-      <h3 class="card-title h5">
-        <span class="badge bg-dark rounded-0">アプリ</span>
-        <a href="https://gradientor.tnantoka.com/" class="text-decoration-none text-dark">
+      </div>
+ 
+      <div class="mt-5">
+        <small class="text-pills px-4">アプリ</small>
+        <h3 class="mt-3">
           Gradientor
+        </h3>
+        <p class="mb-1">
+          グラデーションを作るだけのアプリ。メンテ停止中。
+        </p>
+        <a href="https://gradientor.tnantoka.com/">
+          https://gradientor.tnantoka.com/
         </a>
-      </h3>
-      <p class="h6 card-subtitle text-muted mt-1">
-        グラデーションを作るだけのアプリ。メンテ停止中。
-      </p>
-    </div>
-  </div>
-
-  <div class="card rounded-0 mt-3">
-    <div class="card-body">
-      <h3 class="card-title h5">
-        <span class="badge bg-dark rounded-0">アプリ</span>
-        <a href="http://140note.bornneet.com/" class="text-decoration-none text-dark">
+      </div>
+ 
+      <div class="mt-5">
+        <small class="text-pills px-4">アプリ</small>
+        <h3 class="mt-3">
           140note
+        </h3>
+        <p class="mb-1">
+          Twitter風メモ。メンテ停止中。
+        </p>
+        <a href="http://140note.bornneet.com/">
+          http://140note.bornneet.com/
         </a>
-      </h3>
-      <p class="h6 card-subtitle text-muted mt-1">
-        Twitter風メモ。メンテ停止中。
-      </p>
-    </div>
-  </div>
-
-  <div class="card rounded-0 mt-3">
-    <div class="card-body">
-      <h3 class="card-title h5">
-        <span class="badge bg-dark rounded-0">アプリ</span>
-        <a href="http://remaining.bornneet.com/" class="text-decoration-none text-dark">
+      </div>
+ 
+      <div class="mt-5">
+        <small class="text-pills px-4">アプリ</small>
+        <h3 class="mt-3">
           Remaining
+        </h3>
+        <p class="mb-1">
+          1年の残時間表示。メンテ停止中。
+        </p>
+        <a href="http://remaining.bornneet.com/">
+          http://remaining.bornneet.com/
         </a>
-      </h3>
-      <p class="h6 card-subtitle text-muted mt-1">
-        1年の残時間表示。メンテ停止中。
-      </p>
-    </div>
-  </div>
-
-   <div class="card rounded-0 mt-3">
-    <div class="card-body">
-      <h3 class="card-title h5">
-        <span class="badge bg-dark rounded-0">Chrome拡張</span>
-        <a href="https://chrome.google.com/webstore/detail/rere-reset-review-for-git/egifpbjgjdignmojompfpbeljcknhnbb" class="text-decoration-none text-dark">
+      </div>
+ 
+      <div class="mt-5">
+        <small class="text-pills px-4">Chrome拡張</small>
+        <h3 class="mt-3">
           ReRe
+        </h3>
+        <p class="mb-1">
+          GitHubのレビュー済みファイルをクリアするだけの拡張
+        </p>
+        <a href="https://chrome.google.com/webstore/detail/rere-reset-review-for-git/egifpbjgjdignmojompfpbeljcknhnbb">
+          https://chrome.google.com/webstore/detail/rere-reset-review-for-git/egifpbjgjdignmojompfpbeljcknhnbb
         </a>
-      </h3>
-      <p class="h6 card-subtitle text-muted mt-1">
-        GitHubのレビュー済みファイルをクリアするだけの拡張
-      </p>
-    </div>
-  </div>
-
-  <div class="card rounded-0 mt-3">
-    <div class="card-body">
-      <h3 class="card-title h5">
-        <span class="badge bg-dark rounded-0">サイト</span>
-        <a href="https://flutter.tnantoka.com/" class="text-decoration-none text-dark">
+      </div>
+ 
+      <div class="mt-5">
+        <small class="text-pills px-4">サイト</small>
+        <h3 class="mt-3">
           Flutter notes
+        </h3>
+        <p class="mb-1">
+          Flutterに関するメモ。最近は書けてないです。
+        </p>
+        <a href="https://flutter.tnantoka.com/">
+          https://flutter.tnantoka.com/
         </a>
-      </h3>
-      <p class="h6 card-subtitle text-muted mt-1">
-        Flutterに関するメモ。最近は書けてないです。
-      </p>
-    </div>
-  </div>
-
-  <div class="card rounded-0 mt-3">
-    <div class="card-body">
-      <h3 class="card-title h5">
-        <span class="badge bg-dark rounded-0">サイト</span>
-        <a href="https://spritekit.tnantoka.com/" class="text-decoration-none text-dark">
+      </div>
+ 
+      <div class="mt-5">
+        <small class="text-pills px-4">サイト</small>
+        <h3 class="mt-3">
           SpriteKit.jp
+        </h3>
+        <p class="mb-1">
+          Apple製のゲーム開発フレームワークSpriteKitの情報サイト。更新停止。
+        </p>
+        <a href="https://spritekit.tnantoka.com/">
+          https://spritekit.tnantoka.com/
         </a>
-      </h3>
-      <p class="h6 card-subtitle text-muted mt-1">
-        Apple製のゲーム開発フレームワークSpriteKitの情報サイト。更新停止。
-      </p>
-    </div>
-  </div>
-
-  <div class="card rounded-0 mt-3">
-    <div class="card-body">
-      <h3 class="card-title h5">
-        <span class="badge bg-dark rounded-0">本</span>
-        <a href="https://swiftbook.tnantoka.com/" class="text-decoration-none text-dark">
+      </div>
+ 
+      <div class="mt-5">
+        <small class="text-pills px-4">本</small>
+        <h3 class="mt-3">
           Swift 4プログラミング入門
+        </h3>
+        <p class="mb-1">
+          初めての執筆で右も左もわからなかった。人生で最もやり直したいことかも。
+        </p>
+        <a href="https://swiftbook.tnantoka.com/">
+          https://swiftbook.tnantoka.com/
         </a>
-      </h3>
-      <p class="h6 card-subtitle text-muted mt-1">
-        初めての執筆で右も左もわからなかった。人生で最もやり直したいことかも。
-      </p>
-    </div>
-  </div>
-
-  <div class="card rounded-0 mt-3">
-    <div class="card-body">
-      <h3 class="card-title h5">
-        <span class="badge bg-dark rounded-0">本</span>
-        <a href="https://www.packtpub.com/product/mastering-swift/9781784392154" class="text-decoration-none text-dark">
+      </div>
+ 
+      <div class="mt-5">
+        <small class="text-pills px-4">本</small>
+        <h3 class="mt-3">
           Mastering Swift
+        </h3>
+        <p class="mb-1">
+          英語本にレビュワーとして参加。
+        </p>
+        <a href="https://www.packtpub.com/product/mastering-swift/9781784392154">
+          https://www.packtpub.com/product/mastering-swift/9781784392154
         </a>
-      </h3>
-      <p class="h6 card-subtitle text-muted mt-1">
-        英語本にレビュワーとして参加。
-      </p>
-    </div>
-  </div>
-
-  <div class="card rounded-0 mt-3">
-    <div class="card-body">
-      <h3 class="card-title h5">
-        <span class="badge bg-dark rounded-0">本</span>
-        <a href="https://www.packtpub.com/product/swift-high-performance/9781785282201" class="text-decoration-none text-dark">
+      </div>
+ 
+      <div class="mt-5">
+        <small class="text-pills px-4">本</small>
+        <h3 class="mt-3">
           Swift High Performance
+        </h3>
+        <p class="mb-1">
+          英語レビュー2回目。前回役に立ったいうことかな？と思い嬉しかった。
+        </p>
+        <a href="https://www.packtpub.com/product/swift-high-performance/9781785282201">
+          https://www.packtpub.com/product/swift-high-performance/9781785282201
         </a>
-      </h3>
-      <p class="h6 card-subtitle text-muted mt-1">
-        英語レビュー2回目。前回役に立ったいうことかな？と思い嬉しかった。
-      </p>
+      </div>
     </div>
-  </div>
 
-  <h2 class="h3 fw-light mt-5">Works - お仕事</h2>
-
-  <div class="card rounded-0">
-    <div class="card-body">
-      <p class="h5 text-muted mb-0">
+    <h2 class="mt-5 pb-3">Works - お仕事</h2>
+    <div class="pb-5">
+      <div class="my-5 h3">
         <ion-icon name="lock-closed-outline"></ion-icon>
-      </p>
+      </div>
     </div>
+ 
+    <footer
+      class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
+    >
+      <p class="col-md-4 mb-0 text-muted">&copy; <a href="https://twitter.com/tnantoka" class="text-decoration-none text-reset">tnantoka</a></p>
+    </footer>
   </div>
 
-  <p class="mt-5">
-    &copy; tnantoka
-  </p>
-</div>
-
-<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
-</body>
+  <script src="scripts/main.js"></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"
+  ></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </html>
-
